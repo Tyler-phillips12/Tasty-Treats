@@ -2,6 +2,8 @@ h1 {
     color: white;
     text-align: center;
     background-color: black;
+    font-size: 35px;
+    border: 5px solid hotpink;
 }
 
 h1:hover {
@@ -16,8 +18,12 @@ main {
     display: flex; /* Optional: Align content vertically in the main section */
     justify-content: center; /* Optional: Align content horizontally in the main section */
     align-items: center; /* Optional: Align content vertically in the main section */
+    border: 5px solid hotpink;
 }
   
+main:hover {
+    border: 5px solid white;
+}
         
 
 nav {
@@ -28,14 +34,15 @@ nav {
 }
 
 a {
-    border: 7px solid black;
+    border: 7px solid hotpink;
     background-color: black;
     text-align: center;
     display: inline-block;
     list-style-type: none;
-    padding: 30px;
-    margin: auto;
+    padding: 40px;
+    margin: 20px;
     color: white;
+    font-size: 20px;
 }
 a:hover {
     color: hotpink;
