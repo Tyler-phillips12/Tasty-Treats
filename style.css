@@ -1,0 +1,43 @@
+h1 {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+h1:hover {
+    color: hotpink;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust transparency as needed */
+    width: 100%; /* Ensure the main section covers the entire width */
+    min-height: 100vh; /* Ensure the main section covers the entire viewport height */
+    margin: 0 auto; /* Center the main section horizontally */
+    display: flex; /* Optional: Align content vertically in the main section */
+    justify-content: center; /* Optional: Align content horizontally in the main section */
+    align-items: center; /* Optional: Align content vertically in the main section */
+}
+  
+        
+
+nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a {
+    border: 7px solid black;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    padding: 30px;
+    margin: auto;
+    color: white;
+}
+a:hover {
+    color: hotpink;
+}
+
